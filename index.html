@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luiz Guilherme F. Coelho - Developer & Digital Marketing</title>
+    <title>Luiz Guilherme F. Coelho - Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,19 +12,25 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0a0a0a; /* Fundo preto/cinza muito escuro */
+            background-color: #0a0a0a;
+            /* Fundo preto/cinza muito escuro */
         }
+
         /* Estilo para a barra de rolagem */
         ::-webkit-scrollbar {
             width: 8px;
         }
+
         ::-webkit-scrollbar-track {
             background: #1a1a1a;
         }
+
         ::-webkit-scrollbar-thumb {
-            background: #dc2626; /* Vermelho */
+            background: #dc2626;
+            /* Vermelho */
             border-radius: 10px;
         }
+
         ::-webkit-scrollbar-thumb:hover {
             background: #ef4444;
         }
@@ -34,6 +41,7 @@
             transform: translateY(30px);
             transition: opacity 0.8s ease, transform 0.8s ease;
         }
+
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
@@ -48,12 +56,21 @@
             animation: blink 0.7s infinite;
             margin-left: 4px;
         }
+
         @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
         }
     </style>
 </head>
+
 <body class="text-neutral-200 antialiased">
 
     <!-- ===== Navigation Bar ===== -->
@@ -68,7 +85,11 @@
                 <a href="#education" class="text-neutral-300 hover:text-red-500 transition duration-300">Education</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden text-white">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
             </button>
         </div>
         <!-- Mobile Menu -->
@@ -85,16 +106,21 @@
     <header id="home" class="min-h-screen flex items-center justify-center bg-black">
         <div class="container mx-auto px-6 py-12 text-center">
             <div class="max-w-4xl mx-auto">
-                <h1 class="text-4xl md:text-7xl font-extrabold text-white mb-4 leading-tight">Luiz Guilherme Ferreira Coelho</h1>
-                <p class="text-lg md:text-xl text-red-500 mb-8 font-medium h-7"><span id="typing-effect"></span><span class="typing-cursor"></span></p>
+                <h1 class="text-4xl md:text-7xl font-extrabold text-white mb-4 leading-tight">Luiz Guilherme Ferreira
+                    Coelho</h1>
+                <p class="text-lg md:text-xl text-red-500 mb-8 font-medium h-7"><span id="typing-effect"></span><span
+                        class="typing-cursor"></span></p>
                 <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mt-12">
-                    <a href="https://github.com/LuizgCoelho?tab=repositories" target="_blank" class="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 flex items-center justify-center gap-2">
+                    <a href="https://github.com/LuizgCoelho?tab=repositories" target="_blank"
+                        class="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 flex items-center justify-center gap-2">
                         GitHub
                     </a>
-                    <a href="Curriculo_Luiz_Guilherme_Ferreira_Coelho.pdf" download class="w-full sm:w-auto bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 flex items-center justify-center gap-2">
+                    <a href="Currículo Desenvolvedor.pdf" download
+                        class="w-full sm:w-auto bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 flex items-center justify-center gap-2">
                         Download CV
                     </a>
-                    <a href="Carta de Recomendacao SD Coelho (1).pdf" download class="w-full sm:w-auto bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 flex items-center justify-center gap-2">
+                    <a href="Carta de Recomendacao SD Coelho (1).pdf" download
+                        class="w-full sm:w-auto bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 flex items-center justify-center gap-2">
                         Recommendation Letter
                     </a>
                 </div>
@@ -109,9 +135,13 @@
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">About Me</h2>
             <div class="max-w-3xl mx-auto bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800">
                 <p class="text-lg text-neutral-300 leading-relaxed">
-                    Sou um profissional versátil e apaixonado por tecnologia, cursando Análise e Desenvolvimento de Sistemas. Minha jornada me proporcionou uma base sólida tanto no desenvolvimento web, utilizando tecnologias como HTML, CSS, JavaScript e Firebase, quanto no universo do marketing digital.
+                    Sou estudante de Análise e Desenvolvimento de Sistemas, com experiência prática em desenvolvimento
+                    de aplicações web e mobile, adquirida por meio de estágio e trabalhos como freelancer.
                     <br><br>
-                    Atuei como Social Media e Gestor de Tráfego, desenvolvendo estratégias digitais, criando conteúdo e gerenciando campanhas em plataformas como Meta Ads e Google Ads. Busco constantemente novos desafios para aplicar e expandir minhas habilidades, combinando a lógica da programação com a criatividade do marketing para criar soluções inovadoras e eficientes.
+                    Atuo no desenvolvimento de soluções utilizando HTML, CSS, JavaScript, além de plataformas low-code
+                    como FlutterFlow, com customizações em Dart e integrações com Supabase e Firebase. Tenho vivência
+                    tanto em front-end quanto em back-end, participando da criação de interfaces, regras de negócio,
+                    autenticação de usuários, banco de dados e correção de bugs.
                 </p>
             </div>
         </section>
@@ -120,7 +150,8 @@
         <section id="languages" class="reveal">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Languages</h2>
             <div class="max-w-sm mx-auto bg-neutral-900 p-6 rounded-xl shadow-lg border border-neutral-800 text-center">
-                <p class="text-lg text-neutral-300">Inglês: <span class="font-semibold text-white">Intermediário (B1)</span></p>
+                <p class="text-lg text-neutral-300">Inglês: <span class="font-semibold text-white">Intermediário
+                        (B1)</span></p>
             </div>
         </section>
 
@@ -129,35 +160,37 @@
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Skills</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto">
                 <!-- Lista de habilidades -->
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
                     <p class="font-semibold text-lg text-white">HTML</p>
                 </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
                     <p class="font-semibold text-lg text-white">CSS</p>
                 </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
                     <p class="font-semibold text-lg text-white">JavaScript</p>
                 </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
                     <p class="font-semibold text-lg text-white">Java</p>
                 </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
-                    <p class="font-semibold text-lg text-white">Python</p>
-                </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
                     <p class="font-semibold text-lg text-white">C</p>
                 </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
                     <p class="font-semibold text-lg text-white">Firebase</p>
                 </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
-                    <p class="font-semibold text-lg text-white">Meta Ads</p>
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                    <p class="font-semibold text-lg text-white">Supabase</p>
                 </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
-                    <p class="font-semibold text-lg text-white">Google Ads</p>
-                </div>
-                <div class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
-                    <p class="font-semibold text-lg text-white">Design Gráfico</p>
+                <div
+                    class="bg-neutral-900 border border-neutral-800 p-6 rounded-lg text-center transition-transform hover:-translate-y-1 hover:border-red-600">
+                    <p class="font-semibold text-lg text-white">Flutterflow</p>
                 </div>
             </div>
         </section>
@@ -167,40 +200,49 @@
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Experience</h2>
             <div class="max-w-4xl mx-auto space-y-10">
                 <div class="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800">
-                    <h3 class="text-xl font-bold text-red-500">Social Media / Gestor de Tráfego</h3>
-                    <p class="text-neutral-400 mb-2">Parceiros do Estácio (2023 - 2025) & Pane & Pasta (Jan 2024 - Jul 2024)</p>
+                    <h3 class="text-xl font-bold text-red-500">Desenvolvedor Low Code (Estágio)</h3>
+                    <p class="text-neutral-400 mb-2">TeamSoft Tecnologia e Sistemas (out/2025 - dez/2025)</p>
                     <ul class="list-disc list-inside text-neutral-300 space-y-2">
-                        <li>Desenvolvimento e manutenção de toda a área de marketing digital.</li>
-                        <li>Criação e gerenciamento de redes sociais.</li>
-                        <li>Gestão de campanhas de tráfego pago utilizando Meta Ads e Google Ads.</li>
-                        <li>Registro e otimização de perfis no Google Search e Google Maps.</li>
-                        <li>Auxílio na administração básica dos restaurantes utilizando ferramentas como Excel.</li>
+                        <li>Atuação no desenvolvimento de aplicações web e mobile utilizando FlutterFlow, com
+                            participação em atividades de front-end e back-end.
+                            Experiência prática com Dart para customizações, além de integração com Supabase
+                            (autenticação, banco de dados e lógica de backend).</li>
+                        <li>Desenvolvimento e manutenção de interfaces web e mobile.</li>
+                        <li>Implementação de lógicas e integrações back-end.</li>
+                        <li>Customizações em Dart dentro do FlutterFlow.</li>
+                        <li>Uso do Supabase para autenticação e persistência de dados.</li>
+                        <li>Correção de bugs e apoio em melhorias contínuas.</li>
                     </ul>
                 </div>
                 <div class="bg-neutral-900 p-8 rounded-xl shadow-lg border border-neutral-800">
-                    <h3 class="text-xl font-bold text-red-500">Auxiliar do Centro de Operações de Suprimento</h3>
-                    <p class="text-neutral-400 mb-2">1º Depósito de Suprimento - Exército Brasileiro (Mar 2024 - Jan 2025)</p>
+                    <h3 class="text-xl font-bold text-red-500">Desenvolvedor Low Code (Freelancer)</h3>
+                    <p class="text-neutral-400 mb-2">TeamSoft Tecnologia e Sistemas (out/2025 - atualmente)</p>
                     <ul class="list-disc list-inside text-neutral-300 space-y-2">
-                        <li>Realização de pesquisas em legislação e normativos.</li>
-                        <li>Confecção e destinação de documentos em sistemas corporativos.</li>
-                        <li>Controle e expedição de Ordens de Fornecimento e Transporte.</li>
-                        <li>Participação na gestão do Depósito Logístico de Cargas de Passagem.</li>
+                        <li>Desenvolvimento e manutenção do aplicativo mobile "The Rep" utilizando FlutterFlow.</li>
+                        <li>Criação de interfaces, fluxos de navegação e componentes funcionais.</li>
+                        <li>Implementação de regras de negócio e customizações em Dart.</li>
+                        <li>Integração com Supabase (autenticação, banco de dados e backend).</li>
+                        <li>Correção de bugs, ajustes técnicos e melhorias contínuas.</li>
+                        <li>Colaboração com a equipe no desenvolvimento e evolução do produto.</li>
                     </ul>
                 </div>
             </div>
         </section>
-        
+
         <!-- ===== Projects ===== -->
         <section id="projects" class="reveal">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Projects</h2>
             <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
                 <div class="bg-neutral-900 p-8 rounded-xl shadow-lg flex flex-col border border-neutral-800">
                     <h3 class="text-xl font-bold text-red-500 mb-2">Sistema de Estoque Padoca</h3>
-                    <p class="text-neutral-300 flex-grow">Desenvolvi um sistema de estoque web para uma padaria utilizando HTML, CSS, JS e o Banco de dados da Firebase, adicionando um login via e-mail para o armazenamento dos dados.</p>
+                    <p class="text-neutral-300 flex-grow">Desenvolvi um sistema de estoque web para uma padaria
+                        utilizando HTML, CSS, JS e o Banco de dados da Firebase, adicionando um login via e-mail para o
+                        armazenamento dos dados.</p>
                 </div>
                 <div class="bg-neutral-900 p-8 rounded-xl shadow-lg flex flex-col border border-neutral-800">
                     <h3 class="text-xl font-bold text-red-500 mb-2">Sistema Checklist + IMC</h3>
-                    <p class="text-neutral-300 flex-grow">Desenvolvi um sistema web de Checklist e Cálculo de IMC (Índice de Massa Corporal) para um trabalho da faculdade utilizando HTML, CSS e JS.</p>
+                    <p class="text-neutral-300 flex-grow">Desenvolvi um sistema web de Checklist e Cálculo de IMC
+                        (Índice de Massa Corporal) para um trabalho da faculdade utilizando HTML, CSS e JS.</p>
                 </div>
             </div>
         </section>
@@ -211,7 +253,8 @@
             <div class="max-w-4xl mx-auto space-y-8">
                 <div class="bg-neutral-900 p-6 rounded-xl shadow-lg border border-neutral-800">
                     <h3 class="text-lg font-bold text-red-500">Análise e Desenvolvimento de Sistemas</h3>
-                    <p class="text-neutral-400">Faculdade de Educação Tecnológica do Estado do Rio de Janeiro (FAETERJ) | Cursando</p>
+                    <p class="text-neutral-400">Faculdade de Educação Tecnológica do Estado do Rio de Janeiro (FAETERJ)
+                        | Cursando</p>
                 </div>
                 <div class="bg-neutral-900 p-6 rounded-xl shadow-lg border border-neutral-800">
                     <h3 class="text-lg font-bold text-red-500">Design Gráfico</h3>
@@ -221,17 +264,18 @@
         </section>
 
     </main>
-    
+
     <!-- ===== Footer ===== -->
     <footer class="bg-black">
         <div class="container mx-auto px-6 py-8 text-center text-neutral-400">
             <p>&copy; 2025 Luiz Guilherme Ferreira Coelho. All rights reserved.</p>
-            <p class="mt-2">Contact: <a href="mailto:luizg.coelho1802@gmail.com" class="text-red-500 hover:underline">luizg.coelho1802@gmail.com</a></p>
+            <p class="mt-2">Contact: <a href="mailto:luizg.coelho1802@gmail.com"
+                    class="text-red-500 hover:underline">luizg.coelho1802@gmail.com</a></p>
         </div>
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // --- Animações de Scroll (Intersection Observer) ---
             const revealElements = document.querySelectorAll('.reveal');
             const observer = new IntersectionObserver((entries) => {
@@ -265,14 +309,14 @@
             });
             // Fecha o menu mobile ao clicar em um link
             mobileMenu.addEventListener('click', (e) => {
-                 if (e.target.tagName === 'A') {
+                if (e.target.tagName === 'A') {
                     mobileMenu.classList.add('hidden');
-                 }
+                }
             });
 
             // --- Efeito de Digitação ---
             const typingElement = document.getElementById('typing-effect');
-            const text = "Web Developer | Digital Marketing Specialist";
+            const text = "Low Code & JS Developer";
             let index = 0;
             function type() {
                 if (index < text.length) {
@@ -285,4 +329,5 @@
         });
     </script>
 </body>
+
 </html>
